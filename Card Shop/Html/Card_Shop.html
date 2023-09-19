@@ -1,52 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سبد خرید</title>
+    <title>Product</title>
 
-    <!--================== style css link ===================-->
+    <!-- =========== custom css link =========== -->
     <link rel="stylesheet" href="../Css/style.css">
     
-    <!--================== fontawesome cdn link ===================-->
+    <!-- =========== boxicons cdn =========== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- =========== bootstrap css cdn =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- =========== fontawesome cdn =========== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 </head>
-<body> 
-    
-<div class="container">
 
-    <header>
-        <div class="Shopping">
-            <img src="../Assets/img/shopping-bag-svgrepo-com.svg" alt="">
-            <span class="quentity">0</span>
+<body dir="rtl">
+
+
+<!------------------ sidebar section start ------------------>
+
+<aside>
+    <div class="navbar">
+        <div class="nav_sec">
+            <div class="nav_shop_card">
+                <span><i class="fa-solid fa-bag-shopping"></i></span>
+            </div>
+
+            <div class="nav_cpanel">
+                <span><i class="fa-solid fa-caret-up fa-rotate-270"></i></span>
+            </div>
+
+            <div class="nav_shop_parts">
+                <span class="shop_part_icon">
+                    <span class="shop_part_title nav_close">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="title">
+                            خانه
+                        </span>
+                    </span>
+                </span>
+                <span class="shop_part_icon">
+                    <span class="shop_part_title nav_close">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="title">
+                            خانه
+                        </span>
+                    </span>
+                </span>
+                <span class="shop_part_icon">
+                    <span class="shop_part_title nav_close">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="title">
+                            خانه
+                        </span>
+                    </span>
+                </span>
+                <span class="shop_part_icon">
+                    <span class="shop_part_title nav_close">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="title">
+                            خانه
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <div class="dark_theme">
+                <div class="dark_icon">
+                    <i class="fa-solid fa-moon"></i>
+                    <span>تم تاریک</span>
+                </div>
+                <div class="dark_btn nav_close">
+                </div>
+            </div>
         </div>
-        <h1>سبد خرید شما</h1>
-    </header>
-    <div class="list"></div>
     </div>
-    <div class="card">
-        <h1>محصولات</h1>
-        <ul class="card_list"></ul>
-        <div class="checkout">
-            <div class="total">0</div>
-            <div class="closeshoppimg">close</div>
+</aside>
+
+<!--------------------- sidebar section end ----------------->
+
+
+
+<!----------------- shop card section start ------------------->
+
+
+<section>
+    <div class="card_shop">
+        <div class="shop_item">
+            <div class="shop_product">
+                <div class="item_prof">
+                    <div class="item_img">
+                        <img src="../Assets/img/11.webp" alt="">
+                    </div>
+                    <div class="item_title">
+                        <span class="name">موبایل اپل</span>
+                        <span class="model">مدل آیفون 13</span>
+                    </div>
+                </div>
+                <div class="item_delete">
+                    <span><i class="fa-solid fa-trash"></i></span>
+                    <span class="item_price">1000.11</span>
+                </div>
+                </div> 
+            <div class="shop_inv_sec">
+                <span>موجودی محصول :</span>
+                <span>فروخته شده :</span>
+            </div>    
+        </div>
+        <div class="shop_item">
+            <div class="shop_product">
+                <div class="item_prof">
+                    <div class="item_img">
+                        <img src="../Assets/img/11.webp" alt="">
+                    </div>
+                    <div class="item_title">
+                        <span class="name">موبایل اپل</span>
+                        <span class="model">مدل آیفون 13</span>
+                    </div>
+                </div>
+                <div class="item_delete">
+                    <span><i class="fa-solid fa-trash"></i></span>
+                    <span class="item_price">1000.11</span>
+                </div>
+                </div> 
+            <div class="shop_inv_sec">
+                <span>موجودی محصول :</span>
+                <span>فروخته شده :</span>
+            </div>    
+        </div>
+        <div class="shop_item">
+            <div class="shop_product">
+                <div class="item_prof">
+                    <div class="item_img">
+                        <img src="../Assets/img/11.webp" alt="">
+                    </div>
+                    <div class="item_title">
+                        <span class="name">موبایل اپل</span>
+                        <span class="model">مدل آیفون 13</span>
+                    </div>
+                </div>
+                <div class="item_delete">
+                    <span><i class="fa-solid fa-trash"></i></span>
+                    <span class="item_price">1000.11</span>
+                </div>
+                </div> 
+            <div class="shop_inv_sec">
+                <span>موجودی محصول :</span>
+                <span>فروخته شده :</span>
+            </div>    
+        </div>
+        <div class="shop_item">
+            <div class="shop_product">
+                <div class="item_prof">
+                    <div class="item_img">
+                        <img src="../Assets/img/11.webp" alt="">
+                    </div>
+                    <div class="item_title">
+                        <span class="name">موبایل اپل</span>
+                        <span class="model">مدل آیفون 13</span>
+                    </div>
+                </div>
+                <div class="item_delete">
+                    <span><i class="fa-solid fa-trash"></i></span>
+                    <span class="item_price">1000.11</span>
+                </div>
+                </div> 
+            <div class="shop_inv_sec">
+                <span>موجودی محصول :</span>
+                <span>فروخته شده :</span>
+            </div>    
+        </div>
+        <div class="shop_item">
+            <div class="shop_product">
+                <div class="item_prof">
+                    <div class="item_img">
+                        <img src="../Assets/img/11.webp" alt="">
+                    </div>
+                    <div class="item_title">
+                        <span class="name">موبایل اپل</span>
+                        <span class="model">مدل آیفون 13</span>
+                    </div>
+                </div>
+                <div class="item_delete">
+                    <span><i class="fa-solid fa-trash"></i></span>
+                    <span class="item_price">1000.11</span>
+                </div>
+                </div> 
+            <div class="shop_inv_sec">
+                <span>موجودی محصول :</span>
+                <span>فروخته شده :</span>
+            </div>    
         </div>
     </div>
+</section>
+
+
+<!----------------- shop card section end ------------------->
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!--======================= js file link =======================-->    
-    <script src="../Assets/js/app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <!-- ============ bootstrap js cdn =========== -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- ============ js file link =========== -->
+    <script src="assets/js/index.js"></script>
+
+    <!-- ============== cdn jquery ============= -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
 </body>
-</html> 
+
+</html>

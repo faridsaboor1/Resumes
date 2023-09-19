@@ -1,8 +1,65 @@
 @charset 'utf-8';
 @import url('../Assets/font/font.css');
+@import url('_sidebar_shop.css');
+@import url('../fonts/font/font.css');
+@import url('_product_section.css');
 
 
-*{
+.pro{
+    /* background: #f9f9f9!important; */
+    background-image: url(../img/BAGGG.jfif);
+}
+
+:root{
+    --bacground-01: #ffffff;
+    --bacground-02: #f5f5f5;
+    --bacground-03: #878787;
+    --text-color01: #2d2d2d;
+    --text-color02: #5c5c5c;
+    --text-color03: #efefef;
+    --text-color04: #1f1f1f;
+    --box-color01: #03C988;
+    --box-color02: #e6e6e6;
+    --box-color03: #ffffff;
+    --box-color04: #7b7b7bb6;
+    --btn-color01: #03C988;
+    --btn-color02: #aaaaaa;
+
+    --tran-01: all .1s ease;
+    --tran-02: all .2s ease;
+    --tran-03: all .3s ease;
+    --tran-05: all .5s ease;
+    --tran-08: all .7s ease;
+
+    --shadow: 0 0 7px rgba(96,96,96,.4);
+    --shadow-02: 0 0 0px rgba(96,96,96,.4);
+    --shadow-03: 0 0 3px rgba(96,96,96,.4);
+
+}
+
+body.dark {
+    --bacground-01: #00293d;
+    --bacground-02: #013f5eb6;
+    --bacground-03: #105070;
+    --text-color01: #e5e5e5;
+    --text-color02: #dcdcdc;
+    --text-color03: #efefef;
+    --box-color01: #03C988;
+    --box-color02: #00293d;
+    --box-color03: #013f5eb6;
+    --btn-color01: #03C988;
+    --btn-color02: #00293d;
+
+    --tran-01: all .1s ease;
+    --tran-02: all .2s ease;
+    --tran-03: all .3s ease;
+    --tran-05: all .5s ease;
+    --tran-08: all .7s ease;
+
+    --shadow: 0 0 13px rgba(96,96,96,.4);
+}
+
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -10,58 +67,23 @@
     text-decoration: none;
     outline: none;
     border: none;
+    transition: all .3s linear;
     font-family: vazir , sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    height: 10%;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #03C988;
+    border-radius: 30px;
 }
 
 
 body{
-    background: #e3e7e8;
+    background: var(--bacground-01)!important;
+    width: 100%;
+    height: 100%;
 }
-
-.container{
-    width: 1000px;
-    margin: auto;
-    transition: all .4s;
-}
-
-header{
-    display: grid;
-    grid-template-columns: 1fr 50px;
-    margin-top: 50px;
-}
-
-header .Shopping{
-    position: relative;
-    text-align: left;
-}
-
-header .Shopping img{
-    width: 40px;
-}
-
-header .Shopping span{
-    background: red;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    position: absolute;
-    top: -2px;
-    left: -9px;
-    width: 15px;
-    height: 15px;
-    padding: 14px;
-}
-
-
-
-.list{
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    margin-top: 50px;
-}
-
-
