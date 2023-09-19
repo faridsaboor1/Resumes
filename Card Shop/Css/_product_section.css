@@ -40,6 +40,25 @@
     margin: 0!important;
 }
 
+.pay_section .pay_btn{
+    margin-bottom: 10px;
+}
+
+.pay_section .pay_btn button{
+    width: 100%;
+    color: #353535;
+    padding: 7px 13px;
+    background: #FFF;
+    border: .8px solid #03C988;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.pay_section .pay_btn button:hover{
+    background: #03C988;
+    color: #FFF;    
+}
+
 .shop_item{
     display: flex;
     align-items: center;
