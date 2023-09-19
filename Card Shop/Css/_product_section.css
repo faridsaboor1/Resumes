@@ -11,6 +11,33 @@
     align-items: center;
     flex-direction: column;
     overflow: scroll;
+    backdrop-filter: blur(3px);
+}
+
+.pay_section{
+    width: 25%;
+    height: 200px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    border-radius: 7PX;
+    border: 3.7px dashed #03C988;
+    display: flex;
+    align-items: self-start baseline;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 17px 35px 0px 35px;
+}
+
+.product_price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_price span{
+    margin: 0!important;
 }
 
 .shop_item{
