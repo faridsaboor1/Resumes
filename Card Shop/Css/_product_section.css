@@ -1,8 +1,8 @@
 .card_shop{
     position: absolute;
     top: 60px;
-    right: 145px;
-    width: 60%;
+    right: 225px;
+    width: calc(100% - 47%);
     height: 400px;
     padding: 20px 24px;
     border: 1px solid #03C988;
@@ -15,13 +15,13 @@
 }
 
 .pay_section{
-    width: 25%;
+    width: calc(100% - 75%);
     height: 200px;
     background: transparent;
     backdrop-filter: blur(3px);
     position: absolute;
     top: 60px;
-    left: 25px;
+    left: 35px;
     border-radius: 7PX;
     border: 3.7px dashed #03C988;
     display: flex;
@@ -64,19 +64,21 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 3px 7px;
 }
 
 .shop_product{
     width: 100%;
     height: 100px;
-    background: #03C988;
+    background: #f5f5f5;
     padding: 5px;
+    border: 2px solid #003d5c;
     border-radius: 7px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    color: #FFF;
+    justify-content: first baseline;
+    color: #2c2c2c;
     overflow: hidden;
 }
 
@@ -93,13 +95,24 @@
     margin-left: 60px;
 }
 
+.item_title .color::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: rgb(63, 63, 205);
+    position: absolute;
+    bottom: 14px; 
+    right: 192px;
+}
+
 .item_title .name{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .item_title .model{
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .item_prof{
