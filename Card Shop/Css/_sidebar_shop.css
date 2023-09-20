@@ -33,9 +33,9 @@
     width: 100px;
 }
 
-.shop_part_title.nav_close .title{
+/* .shop_part_title.nav_close .title{
     display: none;
-}
+} */
 
 .nav_shop_parts .shop_part_icon .shop_part_title.nav_close i {
     margin-left: 0px!important;
@@ -58,7 +58,7 @@
     margin-top: 55%;
     background: var(--box-color03);
     border: 1px solid #03C988;
-    width: 80%;
+    width: 55px;
     height: 45px;
     font-size: 22px;
     border-radius: 6px;
@@ -92,7 +92,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 25px;
-    width: 80%;
+    width: 55px;
 }
 
 .nav_shop_parts .shop_part_icon{
