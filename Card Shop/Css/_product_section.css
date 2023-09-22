@@ -1,3 +1,9 @@
+.part_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .shop_title{
     position: absolute;
     top: 27px;
@@ -34,8 +40,8 @@
 .card_shop{
     position: absolute;
     top: 60px;
-    right: 225px;
-    width: calc(100% - 47%);
+    right: 200px;
+    width: 59%;
     height: 100vh;
     padding: 20px 24px;
     border-radius: 7px;
@@ -48,13 +54,13 @@
 }
 
 .pay_section{
-    width: calc(100% - 75%);
+    width: 20%;
     height: 200px;
     background: transparent;
     backdrop-filter: blur(3px);
     position: absolute;
     top: 60px;
-    left: 35px;
+    left: 50px;
     border-radius: 7PX;
     border: 3.7px dashed #03C988;
     display: flex;
@@ -70,8 +76,13 @@
     justify-content: space-between;
 }
 
+.product_price span , p{
+    font-size: 14px;
+}
+
 .product_price span{
     margin: 0!important;
+    font-size: 16px;
 }
 
 .pay_section .pay_btn{
