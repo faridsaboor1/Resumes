@@ -88,7 +88,7 @@
 
 .nav_shop_parts{
     display: flex;
-    align-items: center;
+    align-items: self-start baseline;
     justify-content: space-around;
     text-align: center;
     margin-top: 25px;
@@ -132,6 +132,10 @@
 .nav_shop_parts .shop_part_icon:hover::after{
     width: 15px;
     background: #03C988;
+}
+
+ .title{
+    align-self: center;
 }
 
 .nav_shop_parts .shop_part_icon .shop_part_title i{

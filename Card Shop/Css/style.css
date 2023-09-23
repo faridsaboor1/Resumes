@@ -112,7 +112,12 @@ body{
     .card_shop{
         width: 80%;
     }
-    
+    .shop_title{
+        right: 180px;
+    }
+    .card_shop{
+        right: 140px;
+    }
 }
 
 @media (max-width: 1190px) {
@@ -130,6 +135,7 @@ body{
     }
     .pay_section_2{
         width: calc(100% - 15%);
+        left: 15px;
     }
     
 }
@@ -137,6 +143,7 @@ body{
 @media (max-width:950px){
     .pay_section_2{
         width: calc(100% - 20%);
+        left: 15px;
     }
 }
 
@@ -144,6 +151,7 @@ body{
 @media (max-width:470px){
     .pay_section_2{
         width: calc(100% - 30%);
+        left: 15px;
     }
 }
 
