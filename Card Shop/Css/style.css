@@ -88,3 +88,63 @@ body{
     width: 100%;
     height: 100%;
 }
+
+/* ==================== media queries ======================= */
+
+@media (min-width:1230px)  {
+    .dis_none{
+        display: block;
+    }
+    .pay_section_2{
+        display: none;
+    }
+}
+@media (max-width:1230px)  {
+    .dis_none{
+        display: none;
+    }
+    .pay_section_2{
+        display: block;
+    }
+    .shop_title::after{
+        width: 1000%;
+    }
+    .card_shop{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 1190px) {
+    .navbar{
+        width: 100px;
+    }
+    .nav_shop_card{
+        width: 80%;
+    }
+    .title{
+        display: none;
+    }
+    .nav_shop_parts .shop_part_icon{
+        margin-left: 0;
+    }
+    .pay_section_2{
+        width: calc(100% - 15%);
+    }
+    
+}
+
+@media (max-width:950px){
+    .pay_section_2{
+        width: calc(100% - 20%);
+    }
+}
+
+
+@media (max-width:470px){
+    .pay_section_2{
+        width: calc(100% - 30%);
+    }
+}
+
+

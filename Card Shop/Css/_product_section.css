@@ -94,8 +94,8 @@
     color: #353535;
     padding: 7px 13px;
     background: #FFF;
-    border: .8px solid #03C988;
-    border-radius: 7px;
+    border: 1.5px solid #03C988;
+    border-radius: 4px;
     font-size: 16px;
 }
 
@@ -302,3 +302,41 @@
     left: 98px;
     font-size: 27px;
 }
+
+.pay_section_2{
+    width: calc(100% - 16%);
+    height: 80px;
+    background: #ffffff;
+    border: 2.2px dashed #03C988;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 7px;
+}
+
+.pay_bac_2{
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay_btn_2{
+    width: 20%;
+}
+
+.pay_btn_2 button{
+    background: #FFF;
+    color: #353535;
+    border: 1.5px solid #03C988;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 0px 7px;
+    width: 100%;
+}
+
+.pay_btn_2 button:hover{
+    background: #03C988;
+    color: #FFF;
+}
+
